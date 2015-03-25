@@ -13,6 +13,7 @@
 		F242842D1AC2478900E732AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F242842C1AC2478900E732AE /* Images.xcassets */; };
 		F24284301AC2478900E732AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F242842E1AC2478900E732AE /* LaunchScreen.xib */; };
 		F242843C1AC2478900E732AE /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F242843B1AC2478900E732AE /* UITableViewController_Challenge_SolutionTests.m */; };
+		F24284471AC25E1900E732AE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24284461AC25E1900E732AE /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 		F24284351AC2478900E732AE /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F242843A1AC2478900E732AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F242843B1AC2478900E732AE /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		F24284451AC25E1900E732AE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		F24284461AC25E1900E732AE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				F24284231AC2478900E732AE /* AppDelegate.h */,
 				F24284241AC2478900E732AE /* AppDelegate.m */,
+				F24284451AC25E1900E732AE /* TableViewController.h */,
+				F24284461AC25E1900E732AE /* TableViewController.m */,
 				F24284291AC2478900E732AE /* Main.storyboard */,
 				F242842C1AC2478900E732AE /* Images.xcassets */,
 				F242842E1AC2478900E732AE /* LaunchScreen.xib */,
@@ -215,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F24284251AC2478900E732AE /* AppDelegate.m in Sources */,
+				F24284471AC25E1900E732AE /* TableViewController.m in Sources */,
 				F24284221AC2478900E732AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
